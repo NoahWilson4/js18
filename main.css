@@ -1,0 +1,49 @@
+
+body {
+	background: lightgray;
+}
+.main {
+	width: 700px;
+	background: beige;
+	margin: auto;
+}
+
+.templates {
+	display: none;
+}
+
+.header {
+	background: tan;
+	width: 700px;
+	height: 150px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.title {
+	font-size: 40px;
+	color: white;
+	float: left;
+	padding: 20px 30px;
+
+}
+
+.create-button {
+	position: absolute;
+top: 15px;
+width: 153px;
+right: 15px;
+background: rgb(83, 131, 184);
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+color: white;
+}
+
+
+.input-name {
+	position: absolute;
+top: 60px;
+right: 15px;
+height: 25px;
+}
