@@ -4,13 +4,11 @@ body {
 }
 .main {
 	width: 700px;
-	background: beige;
+	background: -webkit-linear-gradient(left, white,lightgray, white);
 	margin: auto;
+	height: 100%;
 }
 
-.templates {
-	display: none;
-}
 
 .header {
 	background: tan;
@@ -22,15 +20,14 @@ body {
 
 .title {
 	font-size: 40px;
-	color: white;
-	float: left;
+	color: rgb(255, 250, 236);
 	padding: 20px 30px;
 
 }
 
 .create-button {
-	position: absolute;
-top: 15px;
+position: absolute;
+top: 97px;
 width: 153px;
 right: 15px;
 background: rgb(83, 131, 184);
@@ -40,10 +37,130 @@ padding: 10px 15px;
 color: white;
 }
 
-
-.input-name {
+.addquotetext {
 	position: absolute;
-top: 60px;
+top: 35px;
 right: 15px;
-height: 25px;
+width: 250px;
 }
+
+.addauthortext{
+	top: 65px;
+right: 15px;
+position: absolute;
+}
+
+.quote-box {
+	width: 400px;
+	background: rgb(247, 245, 242);
+	margin: 15px 20px;
+	border: 2px solid rgb(113, 155, 179);
+	border-radius: 5px;
+	padding: 30px 20px;
+}
+
+.sort-buttons{
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.sort-buttons button {
+	background: rgb(83, 131, 184);
+	margin: 0;
+	/*border-left: 1px solid white;
+	border-bottom: none;
+	border-top: 1px solid white;
+	border-right: 1px solid white;*/
+	border: none;
+	color: white;
+
+}
+
+.author-menu {
+	width: 200px;
+	height: ;
+	background: rgb(83, 131, 184);
+	position: absolute;
+	top: -10px;
+	left: -10px;
+
+	border-top: 4px solid rgb(113, 155, 179);
+	border-left: 4px solid rgb(113, 155, 179);
+		border-right: 4px solid rgb(113, 155, 179);
+}
+
+.author-menu-name {
+	color: white;
+	padding: 5px 5px;
+	border-bottom: 4px solid rgb(113, 155, 179);
+}
+
+.author-menu-name:hover {
+	background: lightgray;
+	color: rgb(83, 131, 184);
+}
+
+#cancel {
+	color: white;
+position: absolute;
+top: -20px;
+right: 25px;
+background: rgb(71, 117, 175);
+border: 3px solid rgb(113, 155, 179);
+border-radius: 5px;
+}
+#cancel:hover {
+	background: lightgray;
+	color: rgb(83, 131, 184);
+}
+
+.view-all {
+	color: white;
+	padding: 5px 5px;
+	border-bottom: 4px solid rgb(113, 155, 179);
+}
+
+.view-all:hover {
+	background: lightgray;
+	color: rgb(83, 131, 184);
+}
+
+.buddharate {
+	display: inline-block;
+margin: 10px;
+background: lightgray;
+border: 1px solid gray;
+border-radius: 5px;
+width: 10px;
+height: 10px;
+
+}
+
+.zero {
+	background: transparent;
+	width: 4px;
+	height: 4px;
+	position: relative;
+	top: -3px;
+}
+
+.buddharated {
+	width: 20px;
+height: 20px;
+background-image: url('great-buddha-teaching.jpg');
+background-size: 22px;
+margin: 5px;
+}
+
+.ratings {
+	margin-top: 20px;
+}
+
+.author {
+	color: gray;
+}
+

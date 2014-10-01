@@ -9,19 +9,26 @@
 <body>
 	<div class="main">
 
-	<div class="templates">
-		<div class="quote-form">
-		<form>
-			<div class="input-group"><input type="text" name="quote" placeholder="Quote..."></div>
-			<div class="input-group"><input type="text" name="author" placeholder="Author..."></div>
-			<div class="input-group"><input type="submit" value="add"></div>
-		</form>
+	
+		
+	
+		<div class="header">
+		<!-- <img src="http://www.artisansdangkor.com/shop/107-262-thickbox/great-buddha-teaching.jpg"> -->
+			<div class="title">Inspirational Quotes</div>
+			<div id="quote-form">
+				<form>
+					<div class="input-group"><input type="text" class="addquotetext" name="quote" placeholder="Quote..."></div>
+					<div class="input-group"><input type="text" class="addauthortext" name="author" placeholder="Author..."></div>
+					<div class="input-group"><input type="submit" class="create-button" value="Add Quote"></div>
+				</form>
+			</div>
+			<div class="sort-buttons">
+				<button class="sort-author">Sort by Author</button>
+				<button class="sort-rating">Sort by Rating</button>
+				<!-- <div class="author-menu"></div> -->
+			</div>
 		</div>
-	</div>
-	<div class="header">
-		<div class="title">Inspirational Quotes</div>
-		<button class="create-button create-user">Create New User</button>
-	</div>
+		<div class="quote-collection"></div>
 
 	
 
